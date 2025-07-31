@@ -3,14 +3,22 @@
 ## Technology Stack
 
 ### Core Technologies
-- **React:** 19.1.0 (Latest stable version)
-- **TypeScript:** 5.8.3 (Type safety and enhanced DX)
-- **Vite:** 7.0.4 (Fast build tool and dev server)
+- **React:** 19.1.0 (Latest stable version with modern features)
+- **TypeScript:** 5.8.3 (Type safety and enhanced developer experience)
+- **Vite:** 7.0.4 (Lightning-fast build tool and dev server)
+- **Tailwind CSS:** 4.1.11 (Utility-first CSS framework with custom design tokens)
+
+### Key Dependencies
+- **HTML5 Canvas API:** For high-quality image export functionality
+- **Drag and Drop API:** Native browser drag-and-drop with JSON data transfer
+- **React Hooks:** useState, useReducer, useCallback for state management
+- **TypeScript Interfaces:** Type-safe component props and data structures
 
 ### Development Dependencies
-- **ESLint:** 9.30.1 with React-specific plugins
-- **@vitejs/plugin-react:** 4.6.0 for React support
-- **TypeScript ESLint:** 8.35.1 for TS linting
+- **ESLint:** 9.30.1 with React-specific plugins and hooks rules
+- **@vitejs/plugin-react:** 4.6.0 for React support and Fast Refresh
+- **TypeScript ESLint:** 8.35.1 for comprehensive TypeScript linting
+- **PostCSS & Autoprefixer:** CSS processing and browser compatibility
 
 ### Development Environment
 - **Node.js:** Required for package management and build tools
