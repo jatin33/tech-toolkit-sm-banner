@@ -13,32 +13,32 @@ function App() {
 
   // Complete tech icons data - all available icons
   const techIcons = [
-    { id: 1, name: 'OpenAI', url: '/src/assets/tech-icons/openai.svg' },
-    { id: 2, name: 'Claude', url: '/src/assets/tech-icons/claude-color.svg' },
-    { id: 3, name: 'Gemini', url: '/src/assets/tech-icons/gemini-color.svg' },
-    { id: 4, name: 'Grok', url: '/src/assets/tech-icons/grok.svg' },
-    { id: 5, name: 'Mistral', url: '/src/assets/tech-icons/mistral-color.svg' },
-    { id: 6, name: 'Perplexity', url: '/src/assets/tech-icons/perplexity-color.svg' },
-    { id: 7, name: 'Hugging Face', url: '/src/assets/tech-icons/huggingface-color.svg' },
-    { id: 8, name: 'Ollama', url: '/src/assets/tech-icons/ollama.svg' },
-    { id: 9, name: 'OpenRouter', url: '/src/assets/tech-icons/openrouter.svg' },
-    { id: 10, name: 'Midjourney', url: '/src/assets/tech-icons/midjourney.svg' },
-    { id: 11, name: 'AWS', url: '/src/assets/tech-icons/aws-color.svg' },
-    { id: 12, name: 'Cline', url: '/src/assets/tech-icons/cline.svg' },
-    { id: 13, name: 'Cloudflare', url: '/src/assets/tech-icons/cloudflare-color.svg' },
-    { id: 14, name: 'Cursor', url: '/src/assets/tech-icons/cursor.svg' },
-    { id: 15, name: 'DeepSeek', url: '/src/assets/tech-icons/deepseek-color.svg' },
-    { id: 16, name: 'ElevenLabs', url: '/src/assets/tech-icons/elevenlabs.svg' },
-    { id: 17, name: 'Figma', url: '/src/assets/tech-icons/figma-color.svg' },
-    { id: 18, name: 'GitHub', url: '/src/assets/tech-icons/github.svg' },
-    { id: 19, name: 'GitHub Copilot', url: '/src/assets/tech-icons/githubcopilot.svg' },
-    { id: 20, name: 'Make', url: '/src/assets/tech-icons/make-color.svg' },
-    { id: 21, name: 'Manus', url: '/src/assets/tech-icons/manus.svg' },
-    { id: 22, name: 'n8n', url: '/src/assets/tech-icons/n8n-color.svg' },
-    { id: 23, name: 'NotebookLM', url: '/src/assets/tech-icons/notebooklm.svg' },
-    { id: 24, name: 'Notion', url: '/src/assets/tech-icons/notion.svg' },
-    { id: 25, name: 'Replit', url: '/src/assets/tech-icons/replit-color.svg' },
-    { id: 26, name: 'v0', url: '/src/assets/tech-icons/v0.svg' },
+    { id: 1, name: 'OpenAI', url: 'assets/tech-icons/openai.svg' },
+    { id: 2, name: 'Claude', url: 'assets/tech-icons/claude-color.svg' },
+    { id: 3, name: 'Gemini', url: 'assets/tech-icons/gemini-color.svg' },
+    { id: 4, name: 'Grok', url: 'assets/tech-icons/grok.svg' },
+    { id: 5, name: 'Mistral', url: 'assets/tech-icons/mistral-color.svg' },
+    { id: 6, name: 'Perplexity', url: 'assets/tech-icons/perplexity-color.svg' },
+    { id: 7, name: 'Hugging Face', url: 'assets/tech-icons/huggingface-color.svg' },
+    { id: 8, name: 'Ollama', url: 'assets/tech-icons/ollama.svg' },
+    { id: 9, name: 'OpenRouter', url: 'assets/tech-icons/openrouter.svg' },
+    { id: 10, name: 'Midjourney', url: 'assets/tech-icons/midjourney.svg' },
+    { id: 11, name: 'AWS', url: 'assets/tech-icons/aws-color.svg' },
+    { id: 12, name: 'Cline', url: 'assets/tech-icons/cline.svg' },
+    { id: 13, name: 'Cloudflare', url: 'assets/tech-icons/cloudflare-color.svg' },
+    { id: 14, name: 'Cursor', url: 'assets/tech-icons/cursor.svg' },
+    { id: 15, name: 'DeepSeek', url: 'assets/tech-icons/deepseek-color.svg' },
+    { id: 16, name: 'ElevenLabs', url: 'assets/tech-icons/elevenlabs.svg' },
+    { id: 17, name: 'Figma', url: 'assets/tech-icons/figma-color.svg' },
+    { id: 18, name: 'GitHub', url: 'assets/tech-icons/github.svg' },
+    { id: 19, name: 'GitHub Copilot', url: 'assets/tech-icons/githubcopilot.svg' },
+    { id: 20, name: 'Make', url: 'assets/tech-icons/make-color.svg' },
+    { id: 21, name: 'Manus', url: 'assets/tech-icons/manus.svg' },
+    { id: 22, name: 'n8n', url: 'assets/tech-icons/n8n-color.svg' },
+    { id: 23, name: 'NotebookLM', url: 'assets/tech-icons/notebooklm.svg' },
+    { id: 24, name: 'Notion', url: 'assets/tech-icons/notion.svg' },
+    { id: 25, name: 'Replit', url: 'assets/tech-icons/replit-color.svg' },
+    { id: 26, name: 'v0', url: 'assets/tech-icons/v0.svg' },
   ];
 
   // Get available icons (not currently placed on grid)
@@ -110,12 +110,12 @@ function App() {
               {filteredIcons.map((icon) => (
                 <div
                   key={icon.id}
-                  className="flex flex-col items-center p-3 bg-[#1A1A1D] border border-[#55555A] rounded-lg cursor-grab hover:border-[#007AFF] hover:bg-[#007AFF]/10 transition-all group"
+                  className="flex flex-col items-center p-3 border border-[#55555A] rounded-lg cursor-grab hover:border-[#007AFF] hover:bg-[#007AFF]/10 transition-all group"
                   draggable
                   onDragStart={(e) => handleDragStart(e, icon)}
                 >
                   <div className="w-10 h-10 rounded-md flex items-center justify-center mb-2">
-                    <img alt={icon.name} src={icon.url ?? ""} className="w-8 h-8 object-contain" />
+                    <img alt={icon.name} src={`${import.meta.env.BASE_URL}${icon.url}`} className="w-8 h-8 object-contain" />
                   </div>
                   <span className="text-xs text-[#AAAAAA] text-center leading-tight group-hover:text-white transition-colors">
                     {icon.name}
