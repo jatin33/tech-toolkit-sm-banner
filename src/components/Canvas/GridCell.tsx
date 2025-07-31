@@ -26,7 +26,6 @@ function GridCell({
   onDrop, 
   onDragOver,
   onDragLeave,
-  onIconRemove
 }: GridCellProps) {
   const handleDragOver = (e: React.DragEvent) => {
     e.preventDefault();

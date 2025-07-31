@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface TabletPlaceholderProps {
   width: number;
   height: number;

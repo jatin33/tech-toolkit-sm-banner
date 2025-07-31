@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import GridCell from './GridCell';
 import type { TabletTemplate, PlacedIcon } from './tabletTemplates';
 
