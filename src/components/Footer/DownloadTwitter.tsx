@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { exportCanvasToImage, downloadBlob, EXPORT_CONFIGS } from '../../utils/canvasExport'
 import type { PlacedIcon } from '../Canvas/tabletTemplates'
 import { DEFAULT_TEMPLATE } from '../Canvas/tabletTemplates'
+import { usePostHog } from 'posthog-js/react';
 
 type Props = {
     imageUrl: string;
@@ -11,11 +12,17 @@ type Props = {
 
 function DownloadTwitter({ imageUrl, placedIcons, disabled = false }: Props) {
     const [isExporting, setIsExporting] = useState(false);
-    
+    const posthog = usePostHog();
+
     const handleDownload = async () => {
         if (disabled || isExporting) return;
         
         setIsExporting(true);
+        posthog.capture('twitter_download_clicked', {
+            button_name: 'Download for Twitter',
+            page: 'homepage'
+        });
+        
         
         try {
             const result = await exportCanvasToImage(
