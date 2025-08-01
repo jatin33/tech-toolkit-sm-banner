@@ -181,19 +181,6 @@ npm run build
 ### AWS Amplify (Current)
 Already deployed at: [https://main.d1of3vfbkkw17d.amplifyapp.com/](https://main.d1of3vfbkkw17d.amplifyapp.com/)
 
-## 🎯 Project Name Suggestions
-
-Here are some catchy alternatives to consider:
-
-1. **TechStack Canvas** ✨ (Current recommendation)
-2. **StackCraft** - Craft your tech stack visually
-3. **DevToolkit Studio** - Professional toolkit visualization
-4. **TechGrid Builder** - Build beautiful tech grids
-5. **StackShowcase** - Showcase your stack in style
-6. **DevCanvas Pro** - Professional developer canvas
-7. **TechMockup Maker** - Create stunning tech mockups
-8. **StackArt** - Turn your stack into art
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -230,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Inspiration**: [Manu Arora (@mannupaaji)](https://x.com/mannupaaji/status/1943212071438479506) for the original tech stack visualization idea
 - **Tech Icons**: All tech company logos and icons are property of their respective owners
-- **Community**: Built with ❤️ for developers who want to showcase their tech stack beautifully
+- **Community**: Built with ❤️ for builders who want to showcase their tech stack beautifully
 
 ---
 
